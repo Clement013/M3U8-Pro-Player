@@ -2,6 +2,7 @@
 <div align="center">
   <img src="Screenshot/Screenshot_1.png" alt="Popup UI" width="400"/>
 </div>
+
 A Chrome extension that automatically detects `.m3u8` video streams on any website and lets you play them directly in **ClementZQ Player**, **PotPlayer**, **VLC**, or any custom player.  
 It provides a modern popup interface with multiple features to manage and open detected streams.
 
