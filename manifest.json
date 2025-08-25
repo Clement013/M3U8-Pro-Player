@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "M3U8 Pro Player",
+  "description": "Advanced M3U8 video detector with multiple player options and enhanced features",
+  "version": "2.0",
+  "permissions": [
+    "activeTab", 
+    "scripting", 
+    "tabs", 
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/m3u8_icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
