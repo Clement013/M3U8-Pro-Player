@@ -3,7 +3,7 @@
   <img src="Screenshot/Screenshot_1.png" alt="Popup UI" width="400"/>
 </div>
 
-A Chrome extension that automatically detects `.m3u8` video streams on any website and lets you play them directly in **ClementZQ Player**, **PotPlayer**, **VLC**, or any custom player.  
+A Chrome extension that automatically detects `.m3u8` video streams on any website and lets you play them directly in **Ct0u0 Player**, **PotPlayer**, **VLC**, or any custom player.  
 It provides a modern popup interface with multiple features to manage and open detected streams.
 
 ---
@@ -20,7 +20,7 @@ It provides a modern popup interface with multiple features to manage and open d
   - Buttons for **Play**, **Copy**, **Download**, and **Open in new tab**.  
 
 - **Player Options**  
-  - Default: **ClementZQ Web Player**  
+  - Default: **Ct0u0 Web Player**  
   - **PotPlayer** (`potplayer://{url}`) and **VLC** (`vlc://{url}`) support.  
   - **Custom player URL** – enter your own, using `{url}` as placeholder.  
 
@@ -60,7 +60,7 @@ It provides a modern popup interface with multiple features to manage and open d
    - 🔗 **Open** → opens in a new tab.  
 
 5. Configure **Default Player** in ⚙️ Settings.  
-   - Choose ClementZQ, PotPlayer, VLC, or Custom.  
+   - Choose Ct0u0 Player, PotPlayer, VLC, or Custom.  
    - For custom players, use `{url}` placeholder (example: `https://my-player.com/?stream={url}`).  
 
 ---
