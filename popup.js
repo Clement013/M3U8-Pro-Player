@@ -3,7 +3,7 @@ class M3U8Player {
         this.currentTabId = null;
         this.videos = [];
         this.players = {
-            clementzq: 'https://m3u8.clement.dpdns.org/m3u8-player.html?url={url}',
+            ct0u0: 'https://m3u8.ct0u0.dpdns.org/m3u8-player.html?url={url}',
             potplayer: 'potplayer://{url}',
             vlc: 'vlc://{url}',
             custom: ''
